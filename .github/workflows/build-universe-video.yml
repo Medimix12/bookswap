@@ -1,0 +1,63 @@
+name: Build universe video (manual GPU runner)
+
+on:
+  workflow_dispatch:
+    inputs:
+      note:
+        description: "Optional note for this render"
+        required: false
+        default: "A Journey Through the Universe"
+  push:
+    paths:
+      - "video-projects/**"
+      - ".github/workflows/build-universe-video.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    # Requires a self-hosted GPU runner with Wan2.2 TI2V-5B and ffmpeg installed.
+    # Standard GitHub-hosted runners generally do not have the GPU/RAM needed.
+    runs-on: [self-hosted, linux, gpu]
+    timeout-minutes: 360
+    steps:
+      - name: Check out project
+        uses: actions/checkout@v4
+
+      - name: Verify render environment
+        shell: bash
+        run: |
+          set -euo pipefail
+          command -v python
+          command -v ffmpeg
+          nvidia-smi
+          test -d "$HOME/Wan2.2" || {
+            echo "Install Wan2.2 in $HOME/Wan2.2 following https://github.com/Wan-Video/Wan2.2" >&2
+            exit 2
+          }
+
+      - name: Prepare scene plan
+        run: |
+          mkdir -p output
+          cp video-projects/universe-scenes.json output/scenes.json
+          cp video-projects/a-journey-through-the-universe-5min.md output/production-plan.md
+
+      - name: Render video
+        shell: bash
+        run: |
+          set -euo pipefail
+          echo "Scene prompts and narration are prepared in output/."
+          echo "The exact TI2V-5B inference flags depend on the installed ComfyUI/Wan2.2 version."
+          echo "Configure a compatible TI2V-5B batch-render command on this GPU runner before enabling unattended rendering."
+          echo "Refusing to publish a placeholder MP4 as though it were an AI-generated video."
+          exit 3
+
+      - name: Upload output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: universe-video-output
+          path: output/
+          if-no-files-found: ignore
+          retention-days: 7
