@@ -1,0 +1,158 @@
+{
+  "title": "A Journey Through the Universe",
+  "runtime_seconds": 300,
+  "clip_target_seconds": 10,
+  "model": "Wan2.2 TI2V-5B",
+  "scenes": [
+    {
+      "scene": 1,
+      "time": "00:00-00:10",
+      "prompt": "A tiny radiant point appears in black space, cosmic dust emerging slowly, cinematic science documentary, stable slow push-in, deep indigo and warm gold, no text, no logos, 16:9"
+    },
+    {
+      "scene": 2,
+      "time": "00:10-00:20",
+      "prompt": "An expanding luminous plasma wave fills the frame, abstract scientific visualization of the early universe, cinematic volumetric light, slow motion, no text, no logos, 16:9"
+    },
+    {
+      "scene": 3,
+      "time": "00:20-00:30",
+      "prompt": "Vast dark space emerging from light, delicate cosmic haze and first particles, elegant science documentary, slow pullback, no text, no logos, 16:9"
+    },
+    {
+      "scene": 4,
+      "time": "00:30-00:40",
+      "prompt": "Wisps of primordial gas drifting together in a dark cosmos, deep blue and violet, photorealistic space documentary, steady camera, no text, no logos, 16:9"
+    },
+    {
+      "scene": 5,
+      "time": "00:40-00:50",
+      "prompt": "Gravity pulling a glowing nebula inward, turbulent clouds forming dense knots, cinematic time-lapse, no text, no logos, 16:9"
+    },
+    {
+      "scene": 6,
+      "time": "00:50-01:00",
+      "prompt": "The first stars ignite inside a blue-violet nebula, distant lights bloom across the frame, cinematic wide shot, no text, no logos, 16:9"
+    },
+    {
+      "scene": 7,
+      "time": "01:00-01:10",
+      "prompt": "Close-up of a brilliant star surface with solar prominences curling outward, realistic astrophysical visualization, no text, no logos, 16:9"
+    },
+    {
+      "scene": 8,
+      "time": "01:10-01:20",
+      "prompt": "A young star glowing within dusty nebula, gentle camera orbit, rich volumetric light, realistic science documentary, no text, no logos, 16:9"
+    },
+    {
+      "scene": 9,
+      "time": "01:20-01:30",
+      "prompt": "A massive star ends in a luminous expanding supernova shell, scientifically inspired cosmic visualization, no text, no logos, 16:9"
+    },
+    {
+      "scene": 10,
+      "time": "01:30-01:40",
+      "prompt": "A majestic spiral galaxy with crisp arms and a glowing core rotates slowly, wide view, no text, no logos, 16:9"
+    },
+    {
+      "scene": 11,
+      "time": "01:40-01:50",
+      "prompt": "Camera drifts past multiple galaxies in a deep-field view, immense scale and parallax, subtle colors, no text, no logos, 16:9"
+    },
+    {
+      "scene": 12,
+      "time": "01:50-02:00",
+      "prompt": "Edge-on galaxy with dark dust lanes and radiant central bulge, smooth tracking shot, no text, no logos, 16:9"
+    },
+    {
+      "scene": 13,
+      "time": "02:00-02:10",
+      "prompt": "Protoplanetary disk around a young star, orbiting dust and rocks gradually coalescing, scientifically inspired visualization, no text, no logos, 16:9"
+    },
+    {
+      "scene": 14,
+      "time": "02:10-02:20",
+      "prompt": "Molten early Earth viewed from space, glowing lava, volcanic atmosphere and dramatic surface, cinematic realism, no text, no logos, 16:9"
+    },
+    {
+      "scene": 15,
+      "time": "02:20-02:30",
+      "prompt": "Early Earth cooling, ocean clouds and blue water emerging beneath a dramatic atmosphere, slow orbital reveal, no text, no logos, 16:9"
+    },
+    {
+      "scene": 16,
+      "time": "02:30-02:40",
+      "prompt": "Ancient ocean with hydrothermal vents, warm mineral plumes rise through dark seawater, natural history documentary macro style, no text, no logos, 16:9"
+    },
+    {
+      "scene": 17,
+      "time": "02:40-02:50",
+      "prompt": "Abstract microscopic early life drifting through primordial water, delicate particles and soft light, cinematic macro photography, no text, no logos, 16:9"
+    },
+    {
+      "scene": 18,
+      "time": "02:50-03:00",
+      "prompt": "Lush prehistoric landscape at dawn with mist, ferns and distant flying creatures, sweeping natural history film shot, no text, no logos, 16:9"
+    },
+    {
+      "scene": 19,
+      "time": "03:00-03:10",
+      "prompt": "Observatory telescope rotates under a star-filled desert sky, Milky Way overhead, slow cinematic movement, no text, no logos, 16:9"
+    },
+    {
+      "scene": 20,
+      "time": "03:10-03:20",
+      "prompt": "Close-up of a telescope mirror catching starlight, precision engineering details, observatory lighting, no text, no logos, 16:9"
+    },
+    {
+      "scene": 21,
+      "time": "03:20-03:30",
+      "prompt": "View from orbit toward a colorful deep-space nebula, slow approach with Earth limb at edge, cinematic science documentary, no text, no logos, 16:9"
+    },
+    {
+      "scene": 22,
+      "time": "03:30-03:40",
+      "prompt": "A planet crosses in front of a bright distant star, precise astronomical visualization, smooth orbital motion, no text, no logos, 16:9"
+    },
+    {
+      "scene": 23,
+      "time": "03:40-03:50",
+      "prompt": "Rocky exoplanet with thin atmosphere near a red dwarf star, cinematic plausible science visualization, no text, no logos, 16:9"
+    },
+    {
+      "scene": 24,
+      "time": "03:50-04:00",
+      "prompt": "Speculative ocean world beneath an alien sky, distant rings and subtle clouds, grounded science documentary style, no creatures, no text, no logos, 16:9"
+    },
+    {
+      "scene": 25,
+      "time": "04:00-04:10",
+      "prompt": "Galaxy cluster with subtle gravitational lensing arcs around distant galaxies, scientific visualization, slow drift, no text, no logos, 16:9"
+    },
+    {
+      "scene": 26,
+      "time": "04:10-04:20",
+      "prompt": "Large-scale cosmic web of glowing filaments and dark voids, camera flies slowly through structure, elegant visualization, no text, no logos, 16:9"
+    },
+    {
+      "scene": 27,
+      "time": "04:20-04:30",
+      "prompt": "Expanding grid of galaxies across deep space, subtle motion suggesting cosmic expansion, dark elegant scientific visualization, no text, no logos, 16:9"
+    },
+    {
+      "scene": 28,
+      "time": "04:30-04:40",
+      "prompt": "Earth rising over the lunar horizon, calm realistic view, sunlight rim light, slow stable camera, no text, no logos, 16:9"
+    },
+    {
+      "scene": 29,
+      "time": "04:40-04:50",
+      "prompt": "Astronaut silhouette looking toward a dense starfield, reflective wide shot from a quiet lunar landscape, no text, no logos, 16:9"
+    },
+    {
+      "scene": 30,
+      "time": "04:50-05:00",
+      "prompt": "Slow pullback from Earth to the Milky Way and finally a vast star-filled cosmos, gentle fade to black, awe-inspiring cinematic documentary, no text, no logos, 16:9"
+    }
+  ]
+}
